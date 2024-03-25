@@ -10,8 +10,6 @@ const mockData = (request, response, generator) => {
     });
 
 }
-
-
 app.get('/employees', (request, response) => mockData(request, response, employee));
 app.listen(port, () => {
     console.log(`server running at ${port}`)
