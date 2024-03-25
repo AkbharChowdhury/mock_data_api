@@ -1,0 +1,11 @@
+link:
+https://www.youtube.com/watch?v=HVPy-gNp5pc
+create a new node.js project
+npm init -y
+apis:
+npm i express chance
+nodemon link
+https://www.npmjs.com/package/nodemon
+note to include sudo near command
+run server
+nodemon index.js
