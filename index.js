@@ -5,7 +5,7 @@ const app = express();
 const mockData = (request, response, generator) => {
     const count = request.query.count || 30;
     response.json({
-        'employees': Array.from(Array(Number(count)).keys()).map(x =>  generator())
+        'employees': Array.from(Array(Number(count)).keys()).map(i =>  generator())
 
     });
 
