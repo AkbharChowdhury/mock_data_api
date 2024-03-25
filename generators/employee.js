@@ -11,7 +11,6 @@ module.exports = () => {
             address: chance.address(),
             city: chance.city(),
             country: chance.country({ full: true }),
-
             postcode: chance.postcode()
 
         }
