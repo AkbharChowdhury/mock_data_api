@@ -9,3 +9,6 @@ https://www.npmjs.com/package/nodemon
 note to include sudo near command
 run server
 nodemon index.js
+
+from keys:
+https://stackoverflow.com/questions/3746725/how-to-create-an-array-containing-1-n
