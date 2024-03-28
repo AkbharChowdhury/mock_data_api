@@ -1,5 +1,4 @@
 const chance  = require('chance').Chance();
-
 module.exports = () => {
     return {
         id: chance.integer({ min: 1_000, max: 9_999}),
@@ -13,7 +12,8 @@ module.exports = () => {
             country: chance.country({ full: true }),
             postcode: chance.postcode()
 
-        }
+        },
+        desc: chance.paragraph({ sentences: 2 }),
     }
 
 };
